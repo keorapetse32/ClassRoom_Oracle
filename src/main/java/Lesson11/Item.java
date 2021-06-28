@@ -23,9 +23,8 @@ public class Item {
         checkStock();
     }
 
-    private void checkStock(){ // Typically you would query a database
+    private void checkStock(){
         
-        // Negative random numbers will result in isBackOrdered = true
         double num = Math.random() * 1000;
         if ((int)num % 2 == 1 ){  
             this.isBackOrdered = true;

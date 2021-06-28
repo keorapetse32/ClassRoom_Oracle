@@ -23,10 +23,7 @@ public class Shirt extends Item{
         super.display();
         System.out.println("\tSize: "+size);
         System.out.println("\tColor Code: "+ colorCode);
-    } 
-    
-    // Code a public getColor method that converts the colorCode to a the color name
-       // Use a switch statement.  Return the color name. 
+    }
     public String getColor(){
         String color = "";
         switch (colorCode){

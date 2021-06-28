@@ -31,8 +31,7 @@ public class Order {
         return Double.toString(discount) + "%";
     }
 
-    public void calcDiscount() {
-        // Replace the if logic with a switch statement. 
+    public void calcDiscount() { 
 
         switch(custType){
             case NONPROFIT:

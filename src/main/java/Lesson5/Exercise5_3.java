@@ -11,7 +11,6 @@ package Lesson5;
  */
 public class Exercise5_3 {
     public static void main(String[] args) {
-        // local variables
         String custName = "Mary Smith";
         String message;
                 
@@ -29,7 +28,6 @@ public class Exercise5_3 {
         message = custName + " wants to purchase "+items.length+" items.";
         System.out.println(message);
         
-        // Iterate through and print out the items from the items array
         System.out.println("Items purchased: ");
         
         for (String item : items ){
